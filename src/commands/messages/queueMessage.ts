@@ -1,4 +1,4 @@
-import messages from '@/constants/Messages';
+import messages from '@/constants/messages';
 import { QueueItem } from '@/models/Server';
 import { formatSeconds } from '@/utils/formatTime';
 import { EmbedBuilder } from 'discord.js';

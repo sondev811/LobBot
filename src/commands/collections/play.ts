@@ -1,13 +1,12 @@
-import { queue } from './queue';
-import messages from '@/constants/Messages';
+import messages from '@/constants/messages';
 import { QueueItem, Server, servers } from '@/models/Server';
 import { YoutubeService } from '@/services/ytb';
 import {
+  VoiceConnectionStatus,
   entersState,
   joinVoiceChannel,
-  VoiceConnectionStatus,
 } from '@discordjs/voice';
-import { Client, CommandInteraction, GuildMember } from 'discord.js';
+import { CommandInteraction, GuildMember } from 'discord.js';
 import { createPlayMessage } from '../messages/playMessage';
 
 export const play = {
