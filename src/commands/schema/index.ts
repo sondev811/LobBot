@@ -3,52 +3,52 @@ import { ApplicationCommandData, ApplicationCommandOptionType  } from 'discord.j
 export const schema: ApplicationCommandData[] = [
   {
     name: 'play',
-    description: 'Mở một bài hát từ Youtube',
+    description: 'Play a song on Youtube',
     options: [
       {
         name: 'url_or_keyword',
         type: ApplicationCommandOptionType.String,
         description:
-          'Đường dẫn hoặc tên bài hát từ Youtube',
+          'The url or keyword on Youtube',
         required: true,
       },
     ],
   },
   {
     name: 'skip',
-    description: 'Phát bài hát tiếp theo từ hàng chờ',
+    description: 'Skip to the next song in the queue',
   },
   {
     name: 'queue',
-    description: 'Xem hàng chờ',
+    description: 'See the music queue',
   },
   {
     name: 'pause',
-    description: 'Tạm dừng bài hat đang phát',
+    description: 'Pauses the song that is currently playing',
   },
   {
     name: 'resume',
-    description: 'Tiếp tục phát bài hát đang bị tạm dừng',
+    description: 'Resume playback of the current song',
   },
   {
     name: 'leave',
-    description: 'Rời phòng',
+    description: 'Leave the voice channel',
   },
   {
     name: 'jump',
-    description: 'Phát bài hát từ hàng chờ ở vị trí chỉ định',
+    description: 'Jump to song in queue by position',
     options: [
       {
         name: 'position',
         type: ApplicationCommandOptionType.Number,
-        description: 'Vị trí của bài hát trong hàng chờ',
+        description: 'The position of song in queue',
         required: true,
       },
     ],
   },
   {
     name: 'remove',
-    description: 'Xóa bài hát trong hàng chờ ở vị trí chỉ định',
+    description: 'Remove song in queue by position',
     options: [
       {
         name: 'position',
@@ -60,10 +60,10 @@ export const schema: ApplicationCommandData[] = [
   },
   {
     name: 'ping',
-    description: 'Xem ping tới server',
+    description: 'See the ping to server',
   },
   {
     name: 'help',
-    description: 'Chức năng của bot',
+    description: 'See the help for bot',
   },
 ];
