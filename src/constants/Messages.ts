@@ -1,4 +1,4 @@
-export default {
+export const messages = {
   error: 'Bị lỗi rồi. Gọi lob fix🥺',
   cantFindAnyThing: "Không tìm thấy bài hát 🥺",
   joinVoiceChannel: 'Vào một voice channel trước đã -_-',

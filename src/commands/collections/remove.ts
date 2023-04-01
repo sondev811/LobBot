@@ -1,4 +1,4 @@
-import messages from '@/constants/Messages';
+import { messages } from '../../constants/messages';
 import { servers } from '@/models/Server';
 import { CommandInteraction } from 'discord.js';
 

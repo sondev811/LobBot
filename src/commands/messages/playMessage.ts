@@ -1,4 +1,4 @@
-import messages from '@/constants/Messages';
+import { messages } from '../../constants/messages';
 import { formatSeconds } from '@/utils/formatTime';
 import { EmbedField, EmbedBuilder } from 'discord.js';
 
