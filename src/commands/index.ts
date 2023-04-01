@@ -1,5 +1,5 @@
-import { messages } from 'constants/messages';
 import { Client } from 'discord.js';
+import messages from '@/constants/messages';
 import { deploy } from './collections/deploy';
 import { help } from './collections/help';
 import { jump } from './collections/jump';
