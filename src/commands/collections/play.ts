@@ -1,6 +1,6 @@
-import messages from '@constant/messages';
-import { QueueItem, Server, servers } from '@model/Server';
-import { YoutubeService } from '@service/ytb';
+import messages from '../../constants/messages';
+import { QueueItem, Server, servers } from '../../models/Server';
+import { YoutubeService } from '../../services/ytb';
 import {
   VoiceConnectionStatus,
   entersState,

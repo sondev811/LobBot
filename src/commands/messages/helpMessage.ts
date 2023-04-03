@@ -1,5 +1,5 @@
-import { schema } from '@command/schema';
-import messages from '@constant/messages';
+import { schema } from '../../commands/schema';
+import messages from '../../constants/messages';
 import { BaseApplicationCommandOptionsData, EmbedBuilder } from 'discord.js';
 
 export const createHelpMessage = (): EmbedBuilder => {

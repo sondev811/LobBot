@@ -1,5 +1,4 @@
 import { Client } from 'discord.js';
-import messages from '@constant/messages';
 import { deploy } from './collections/deploy';
 import { help } from './collections/help';
 import { jump } from './collections/jump';
@@ -11,6 +10,7 @@ import { queue } from './collections/queue';
 import { remove } from './collections/remove';
 import { resume } from './collections/resume';
 import { skip } from './collections/skip';
+import messages from 'constants/messages';
 
 export const bootstrap = (client: Client): void => {
   deploy(client);

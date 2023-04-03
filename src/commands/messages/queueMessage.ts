@@ -1,6 +1,6 @@
-import messages from '@constant/messages';
-import { QueueItem } from '@model/Server';
-import { formatSeconds } from '@util/formatTime';
+import messages from '../../constants/messages';
+import { QueueItem } from '../../models/Server';
+import { formatSeconds } from '../../utils/formatTime';
 import { EmbedBuilder } from 'discord.js';
 
 export const createQueueMessages = (queue: QueueItem[]): EmbedBuilder[] => {

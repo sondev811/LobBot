@@ -1,5 +1,5 @@
-import messages from '@constant/messages';
-import { formatSeconds } from '@util/formatTime';
+import messages from '../../constants/messages';
+import { formatSeconds } from '../../utils/formatTime';
 import { EmbedField, EmbedBuilder } from 'discord.js';
 
 export const createPlayMessage = (payload: {

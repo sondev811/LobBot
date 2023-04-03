@@ -15,12 +15,6 @@
     "outDir": "dist",
     "baseUrl": "src",
     "paths": {
-      "@constant/*": ["constants/*"],
-      "@model/*": ["models/*"],
-      "@service/*": ["services/*"],
-      "@command/*": ["commands/*"],
-      "@util/*": ["utils/*"],
-      "@type/*": ["types/*"]
     },
   },
   "include": [

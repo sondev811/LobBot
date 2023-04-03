@@ -8,9 +8,6 @@
     "build": "rm -rf dist && tsc",
     "dev": "nodemon"
   },
-  "_moduleAliases": {
-    "@": "dist"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
