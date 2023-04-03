@@ -1,4 +1,4 @@
-import { bootstrap } from './commands/index';
+import { bootstrap } from '@command/index';
 import { config } from "dotenv";
 config();
 

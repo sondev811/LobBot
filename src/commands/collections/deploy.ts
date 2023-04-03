@@ -1,5 +1,5 @@
 import { Client } from 'discord.js';
-import { schema } from '../schema';
+import { schema } from '@command/schema';
 
 export const deploy = (client: Client): void => {
   client.on('messageCreate', async (message) => {

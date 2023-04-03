@@ -1,4 +1,4 @@
-import { Song } from '@/types/Song';
+import { Song } from '@type/Song';
 import {
   AudioPlayer,
   AudioPlayerStatus,

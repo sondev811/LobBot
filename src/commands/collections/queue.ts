@@ -1,7 +1,7 @@
-import messages from '@/constants/messages';
-import { servers } from '@/models/Server';
+import messages from '@constant/messages';
+import { servers } from '@model/Server';
 import { CommandInteraction } from 'discord.js';
-import { createQueueMessages } from '../messages/queueMessage';
+import { createQueueMessages } from '@command/messages/queueMessage';
 
 export const queue = {
   name: 'queue',
