@@ -27,6 +27,6 @@ client.on("ready", () => {
   console.log(`> Bot is on ready`);
 });
 
-client.login('MTA5MTc4OTg3NTE4NDkzMDkxNg.GRmBL0.6F7vrO5eHveDnOvy-qjr5x_ZKz3fr-7LfnrjS0').then(() => {
+client.login(process.env.TOKEN).then(() => {
   bootstrap(client);
 });
