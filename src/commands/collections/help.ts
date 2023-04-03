@@ -1,5 +1,5 @@
 import { CommandInteraction } from 'discord.js';
-import { createHelpMessage } from '../messages/helpMessage';
+import { createHelpMessage } from '@/messages/helpMessage';
 
 export const help = {
   name: 'help',

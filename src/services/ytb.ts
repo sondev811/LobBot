@@ -1,6 +1,6 @@
-import { youtubePlaylistRegex, youtubeVideoRegex } from '../constants/regex';
-import { Playlist } from '../types/Playlist';
-import { Song } from '../types/Song';
+import { youtubePlaylistRegex, youtubeVideoRegex } from '@/constants/regex';
+import { Playlist } from '@/types/Playlist';
+import { Song } from '@/types/Song';
 import ytdl from 'ytdl-core';
 import ytpl from 'ytpl';
 import ytsr, { Video } from 'ytsr';

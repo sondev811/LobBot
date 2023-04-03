@@ -7,7 +7,7 @@ import {
   joinVoiceChannel,
 } from '@discordjs/voice';
 import { CommandInteraction, GuildMember } from 'discord.js';
-import { createPlayMessage } from '../messages/playMessage';
+import { createPlayMessage } from '@/messages/playMessage';
 
 export const play = {
   name: 'play',

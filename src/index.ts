@@ -2,9 +2,9 @@ import { bootstrap } from './commands/index';
 import { config } from "dotenv";
 config();
 
-// if (process.env.NODE_ENV === "production") {
-//   require("module-alias/register");
-// }
+if (process.env.NODE_ENV === "production") {
+  require("module-alias/register");
+}
 
 import { Client, GatewayIntentBits, IntentsBitField  } from "discord.js";
 
